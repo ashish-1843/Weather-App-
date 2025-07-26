@@ -1,0 +1,70 @@
+body {
+  background-color: #E7EFC7;
+}
+.whether-data h1{
+   text-align: center;
+   color : #3B3B1A;
+}
+
+.whether-data{
+  text-align: center;
+  width : 100%;
+  position: relative;
+}
+
+.whether-data input{
+  width : 25%;
+  padding : 10px 10px;
+}
+
+.whether-data button{
+  width : 10%;
+  padding : 10px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #8A784E;
+  color : #E7EFC7;
+  font-size : 16px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.whether-info{
+  width : 300px;
+  background-color: white;
+  margin : auto;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size : 18px;
+  padding : 10px 10px;
+  border : 4px solid #8A784E;
+  border-radius : 10px;
+}
+
+.whether-info h3{
+  color : #3B3B1A;
+  font-size: 20px;
+  font-weight : 700;
+}
+
+.whether-info p{
+  font-size : 18px;
+  font-weight : 600;
+  color : #3B3B1A;
+}
+
+.whether-info span{
+  background-color: #E7EFC7;
+}
+
+.whether-info .loader{
+  position : absolute;
+  left : 720px;
+  display: none;
+}
+
+.whether-info .loader-show{
+  display : block;
+  position : absolute;
+  left : 720px;
+}
