@@ -1,2 +1,3 @@
-# Password-
-This is used for the password genreate
+# Password Generator
+
+This is my updated version of the password generator app.
