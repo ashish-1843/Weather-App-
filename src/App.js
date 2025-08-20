@@ -30,14 +30,14 @@ function App() {
 
   return (
     <div className="box">
-      <div className="whether-data">
-        <h1>Simple Whether App</h1>
+      <div className="weather-data">
+        <h1>Simple Weather App</h1>
 
         <form onSubmit={getData}>
           <input type='text' value={city} onChange={(e) => setCity(e.target.value)}></input>
           <button> Submit</button>
         </form>
-        <div className='whether-info'>
+        <div className='weather-info'>
           <img src='https://i.gifer.com/ZKZg.gif' width={100} className={isLoader ? 'loader-show' : 'loader'}/>
           {wDetails !== undefined
             ?
