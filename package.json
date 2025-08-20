@@ -1,6 +1,6 @@
 {
- "homepage": "https://github.com/ashish-1843/Weather-App-.git",
- "name": "weatherapp",
+ "homepage": "https://github.com/ashish-1843/Password-Generator.git",
+ "name": "Password generator",
  "version": "0.1.0",
  "private": true,
  "dependencies": {
