@@ -1,23 +1,23 @@
 body {
   background-color: #E7EFC7;
 }
-.whether-data h1{
+.weather-data h1{
    text-align: center;
    color : #3B3B1A;
 }
 
-.whether-data{
+.weather-data{
   text-align: center;
   width : 100%;
   position: relative;
 }
 
-.whether-data input{
+.weather-data input{
   width : 25%;
   padding : 10px 10px;
 }
 
-.whether-data button{
+.weather-data button{
   width : 10%;
   padding : 10px 10px;
   margin-left: 10px;
@@ -29,7 +29,7 @@ body {
   cursor: pointer;
 }
 
-.whether-info{
+.weather-info{
   width : 300px;
   background-color: white;
   margin : auto;
@@ -41,29 +41,29 @@ body {
   border-radius : 10px;
 }
 
-.whether-info h3{
+.weather-info h3{
   color : #3B3B1A;
   font-size: 20px;
   font-weight : 700;
 }
 
-.whether-info p{
+.weather-info p{
   font-size : 18px;
   font-weight : 600;
   color : #3B3B1A;
 }
 
-.whether-info span{
+.weather-info span{
   background-color: #E7EFC7;
 }
 
-.whether-info .loader{
+.weather-info .loader{
   position : absolute;
   left : 720px;
   display: none;
 }
 
-.whether-info .loader-show{
+.weather-info .loader-show{
   display : block;
   position : absolute;
   left : 720px;
