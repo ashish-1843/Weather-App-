@@ -68,3 +68,14 @@ body {
   position : absolute;
   left : 720px;
 }
+
+@media (max-width:640px){
+  .weather-data input{
+    width : 45%;
+  }
+
+  .weather-data button{
+    width : 25%;
+  }
+
+}
